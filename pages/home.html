@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/home.css" />
+    <link rel="icon" type="image/x-icon" href="../assets/Courii Academy.png" />
+    <title>Courii Academy || Welcome </title>
+  </head>
+  <body>
+    <div id="container">
+      <!-- Empty space to push login div to the right -->
+      <div id="left" class="col"></div>
+
+      <!-- Login div -->
+      <div id="right" class="col">
+        <img id="logo" src="../assets/Courii Academy.png" />
+        <h1>Welcome to Courii Academy</h1>
+        <form>
+          <label
+            ><span class="label">Username</span> <br /><input
+              id="username"
+              class="login-input"
+              type="text"
+            /><br />
+          </label>
+          <label
+            ><span class="label">Password</span>
+            <br />
+            <input id="pass" class="login-input" type="password" /> </label
+          ><br />
+          <input id="submit" type="submit" value="Login" />
+        </form>
+
+        <!-- Go to signup page -->
+        <p>Don't have an account? <span id="register">Create one now!</span></p>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="../logic/login.js"></script>
+    <script src="../logic/data.js"></script>
+  </body>
+</html>

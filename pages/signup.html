@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/singup.css" />
+    <link rel="icon" type="image/x-icon" href="../assets/Courii Academy.png" />
+    <title>Courii Academy || Sign Up</title>
+  </head>
+  <body>
+    <div id="container">
+      <img id="logo" src="../assets/Courii Academy.png" />
+      <h1>Courii Academy is the right decision for your learning journey</h1>
+      <h3>Join Now!</h3>
+      <form>
+        <label
+          ><span class="label">Username</span> <br /><input
+            id="username"
+            class="signup-input"
+            type="text"
+          /><br />
+        </label>
+
+        <label
+          ><span class="label">Password</span> <br />
+          <input id="pass" class="signup-input" type="password" /> </label
+        ><br />
+        <label
+          ><span class="label">Confirm Password</span> <br />
+          <input
+            id="confirm-pass"
+            class="signup-input"
+            type="password"
+          /> </label
+        ><br />
+        <input id="submit" type="submit" value="Signup Now" />
+      </form>
+      <!-- Go to login page -->
+      <p>Already have an account? <span id="signin">Login now!</span></p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="../logic/signup.js"></script>
+    <script src="../logic/data.js"></script>
+  </body>
+</html>

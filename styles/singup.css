@@ -1,0 +1,90 @@
+body {
+  background-image: url("../assets/signup-bg.png");
+  background-repeat: no-repeat;
+  background-position: 8%;
+  background-color: #fad643;
+}
+
+h1 {
+  margin-top: -25px;
+  background: linear-gradient(#1914a5, #f0d250);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-size: 150%;
+  background: linear-gradient(#f0d250, #1914a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0;
+}
+
+#container {
+  width: 55vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 3.5%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 18px;
+  background-color: #a5751ba1;
+}
+
+form {
+  width: 100%;
+}
+
+.signup-input {
+  margin: 5px;
+  width: 45%;
+  height: 19px;
+}
+
+.signup-input:focus {
+  outline: none;
+}
+
+.label {
+  float: left;
+  height: 17px;
+  font-size: large;
+  margin-left: 140px;
+  background: linear-gradient(#2a2de0, #7900c9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#logo {
+  width: 140px;
+  height: 140px;
+  margin-bottom: 1px;
+  margin-top: -25px;
+}
+
+#submit {
+  border: none;
+  padding: 11px;
+  width: 40%;
+  font-size: large;
+  background: linear-gradient(#e4eb59, #6560e9);
+  margin-top: 15px;
+}
+
+#submit:hover {
+  background: linear-gradient(#6560e9, #e4eb59);
+}
+
+#signin {
+  text-align: left;
+  text-decoration: underline;
+  color: #463f3a;
+  opacity: 0.6;
+}
+
+#signin:hover {
+  opacity: 1;
+  cursor: pointer;
+}
