@@ -1,0 +1,10 @@
+#container {
+  width: 55vw;
+  height: 50vh;
+  display: block;
+  margin: auto;
+  margin-top: 8%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 18px;
+}
