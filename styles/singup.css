@@ -81,10 +81,19 @@ form {
   text-align: left;
   text-decoration: underline;
   color: #463f3a;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 #signin:hover {
   opacity: 1;
   cursor: pointer;
+}
+
+.radio-label {
+  height: 17px;
+  font-size: large;
+  margin: 13px;
+  background: linear-gradient(#2a2de0, #7900c9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
