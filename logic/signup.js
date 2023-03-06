@@ -22,3 +22,8 @@ $("form").submit(function (event) {
     }
   }
 });
+
+$("#signin").click(function (event) {
+  event.preventDefault();
+  window.location.assign("../pages/home.html");
+});
