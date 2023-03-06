@@ -1,9 +1,15 @@
+body {
+  background-image: url("../assets/books-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fad643;
+}
+
 #container {
   display: flex;
   flex-direction: row;
   width: 90vw;
   height: 90vh;
-  overflow-x: hidden;
 }
 
 #left {
@@ -11,6 +17,7 @@
   flex-direction: column;
   width: 65%;
   left: 0;
+  z-index: 5;
 }
 
 #right {
@@ -23,16 +30,67 @@
   padding: 1em;
   padding-top: 7%;
   margin-top: 35px;
+  background-color: #a5751bd3;
 }
 
-span {
+.label {
+  float: left;
+  margin-left: 15px;
+  height: 18px;
+  font-size: large;
+  background: linear-gradient(#2a2de0, #7900c9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#register {
   text-align: left;
   text-decoration: underline;
-  color: rgb(71, 71, 209);
+  color: #463f3a;
   opacity: 0.6;
 }
 
-span:hover {
+#register:hover {
   opacity: 1;
   cursor: pointer;
+}
+
+#logo {
+  width: 140px;
+  height: 140px;
+  margin-bottom: 1px;
+  margin-top: -40px;
+}
+
+h1 {
+  margin-top: -20px;
+  background: linear-gradient(#2a2de0, #7900c9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+form {
+  width: 100%;
+}
+
+.login-input {
+  margin: 15px;
+  height: 29px;
+  width: 60%;
+}
+
+.login-input:focus {
+  outline: none;
+}
+
+#submit {
+  border: none;
+  padding: 11px;
+  width: 40%;
+  font-size: large;
+  background: linear-gradient(#2a2de0, #7900c9);
+}
+
+#submit:hover {
+  background: linear-gradient(#7900c9, #2a2de0);
 }

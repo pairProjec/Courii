@@ -11,10 +11,11 @@
     <div id="container">
       <div id="left" class="col"></div>
       <div id="right" class="col">
+        <img id="logo" src="../assets/Courii Academy.png" />
         <h1>Welcome to Courii Academy</h1>
         <form>
           <label
-            >Username <br /><input
+            ><span class="label">Username</span> <br /><input
               id="username"
               class="login-input"
               type="text"
@@ -22,13 +23,14 @@
           </label>
 
           <label
-            >Password <br />
+            ><span class="label">Password</span>
+            <br />
             <input id="pass" class="login-input" type="password" /> </label
           ><br />
-          <input type="submit" value="Login" />
+          <input id="submit" type="submit" value="Login" />
         </form>
 
-        <p>Don't have an account? <span>Create one now!</span></p>
+        <p>Don't have an account? <span id="register">Create one now!</span></p>
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>

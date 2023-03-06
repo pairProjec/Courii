@@ -16,3 +16,8 @@ $("form").submit(function (event) {
     alert("Please make sure you entered a valid username");
   }
 });
+
+$("#register").click(function (event) {
+  event.preventDefault();
+  window.location.assign("../pages/signup.html");
+});
