@@ -1,0 +1,38 @@
+window.users = [
+  {
+    username: "admin",
+    password: "password",
+  },
+  {
+    username: "admin",
+    password: "password",
+  },
+  {
+    username: "admin",
+    password: "password",
+  },
+  {
+    username: "admin",
+    password: "password",
+  },
+  {
+    username: "admin",
+    password: "password",
+  },
+  {
+    username: "admin",
+    password: "password",
+  },
+  {
+    username: "admin",
+    password: "password",
+  },
+  {
+    username: "admin",
+    password: "password",
+  },
+  {
+    username: "admin",
+    password: "password",
+  },
+];
