@@ -1,0 +1,88 @@
+header {
+    background-color:#fad643
+    ;
+    text-align: center;
+    padding: 20px;
+  }
+  .container{
+    width: available;
+    height: available;
+}
+
+.leftpane{
+    width: 25%;
+    min-width: 350px;
+    height: available;
+    min-height: 400px;
+    float: left;
+    border-collapse: collapse;
+}
+
+.middlepane{
+   width: 50%;
+   min-width: 800px;
+   height: available;
+   min-height: 650px;
+   float: left; 
+   
+   border-collapse: collapse;
+}
+
+.rightpane{
+    width: 25%;
+    min-width: 350px;
+    min-height: 400px;
+    height: available;
+    
+    margin-left: 75%;
+  
+    border-collapse: collapse;
+    float: inline-start;
+}
+  h1{
+    text-align: center;
+    background-color: #fad643
+    ;
+  }
+  h4{
+    text-align: center;
+  }
+
+
+.kebrou{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: 200px;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+    text-decoration-line: underline;
+}
+.sghayrat{
+  width: 50%;
+  height: 200px;
+  text-align: center;
+}
+.courses{
+  justify-items: center;
+  border: none;
+  padding: 11px;
+  width: 40%;
+  font-size: large;
+  background: linear-gradient(#e4eb59, #6560e9);
+}
+
+.courses:hover {
+  background: linear-gradient(#e4eb59, #6560e9);
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #fad643;
+  
+}
+
