@@ -8,4 +8,5 @@ $(document).ready(function () {
   for (var i = 0; i < professor.courses.length; i++) {
     $($courseList).append(`<li>${professor.courses[i]} </li>`);
   }
+  $("#container").append($courseList);
 });
