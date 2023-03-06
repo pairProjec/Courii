@@ -3,6 +3,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #fad643;
+  padding: 0;
+  margin: 0;
 }
 
 #container {
@@ -10,6 +12,7 @@ body {
   flex-direction: row;
   width: 90vw;
   height: 90vh;
+  margin-bottom: 64px;
 }
 
 #left {
@@ -93,4 +96,39 @@ form {
 
 #submit:hover {
   background: linear-gradient(#7900c9, #2a2de0);
+}
+
+footer {
+  height: 43vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #a5751bd3;
+}
+
+.col {
+  width: 33.33333%;
+  flex: 1 1;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .col h2 {
+  font-size: 140%;
+  background: linear-gradient(#2a2de0, #7900c9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  float: left;
+}
+
+li {
+  font-size: x-large;
+}
+
+#tech {
+  list-style: none;
 }

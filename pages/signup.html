@@ -19,12 +19,18 @@
             id="username"
             class="signup-input"
             type="text"
+            required
           /><br />
         </label>
 
         <label
           ><span class="label">Password</span> <br />
-          <input id="pass" class="signup-input" type="password" /> </label
+          <input
+            id="pass"
+            class="signup-input"
+            type="password"
+            required
+          /> </label
         ><br />
         <label
           ><span class="label">Confirm Password</span> <br />
@@ -32,7 +38,16 @@
             id="confirm-pass"
             class="signup-input"
             type="password"
+            required
           /> </label
+        ><br />
+        <input type="radio" name="role" value="student" required /><label
+          class="radio-label"
+          >Student</label
+        >
+        <input type="radio" name="role" value="professor" required /><label
+          class="radio-label"
+          >Professor</label
         ><br />
         <input id="submit" type="submit" value="Signup Now" />
       </form>

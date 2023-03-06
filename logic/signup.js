@@ -1,5 +1,6 @@
 $("form").submit(function (event) {
   event.preventDefault();
+  var isProf = $('input[name="role"]:checked').val();
   var usernameTaken = window.users.find(function (user) {
     return $("#username").val() == user.username;
   });
@@ -13,8 +14,12 @@ $("form").submit(function (event) {
       var newUser = {
         username: $("#username").val(),
         password: $("#pass").val(),
+        isProfessor: isProf === "professor",
+        courses: [],
       };
       window.users.push(newUser);
+      window.localStorage.setItem("user", $("#username").val());
+      window.location.assign("../pages/levels.html");
     } else {
       alert(
         "Please make sure your password is longer than 6 characters and is identical to the 'Confirm Password' field"

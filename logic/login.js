@@ -7,6 +7,7 @@ $("form").submit(function (event) {
     if (userFound.password === $("#pass").val()) {
       alert("Successfully logged in");
       window.localStorage.setItem("user", userFound.username);
+      window.location.assign("../pages/levels.html");
     } else {
       alert("Incorrect password");
       $("#pass").val("");
