@@ -56,14 +56,14 @@ window.users = [
 ];
 
 window.courses = [
-  { name: "", professor: "", level: "", subject: "" },
-  { name: "", professor: "", level: "", subject: "" },
-  { name: "", professor: "", level: "", subject: "" },
-  { name: "", professor: "", level: "", subject: "" },
-  { name: "", professor: "", level: "", subject: "" },
-  { name: "", professor: "", level: "", subject: "" },
-  { name: "", professor: "", level: "", subject: "" },
-  { name: "", professor: "", level: "", subject: "" },
-  { name: "", professor: "", level: "", subject: "" },
-  { name: "", professor: "", level: "", subject: "" },
+  { name: "", professor: "", level: "", subject: "", isOnline: false },
+  { name: "", professor: "", level: "", subject: "", isOnline: false },
+  { name: "", professor: "", level: "", subject: "", isOnline: false },
+  { name: "", professor: "", level: "", subject: "", isOnline: false },
+  { name: "", professor: "", level: "", subject: "", isOnline: false },
+  { name: "", professor: "", level: "", subject: "", isOnline: false },
+  { name: "", professor: "", level: "", subject: "", isOnline: false },
+  { name: "", professor: "", level: "", subject: "", isOnline: false },
+  { name: "", professor: "", level: "", subject: "", isOnline: false },
+  { name: "", professor: "", level: "", subject: "", isOnline: false },
 ];
