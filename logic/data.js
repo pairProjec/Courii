@@ -55,4 +55,15 @@ window.users = [
   },
 ];
 
-window.courses = []
+window.courses = [
+  { name: "", professor: "", level: "", subject: "" },
+  { name: "", professor: "", level: "", subject: "" },
+  { name: "", professor: "", level: "", subject: "" },
+  { name: "", professor: "", level: "", subject: "" },
+  { name: "", professor: "", level: "", subject: "" },
+  { name: "", professor: "", level: "", subject: "" },
+  { name: "", professor: "", level: "", subject: "" },
+  { name: "", professor: "", level: "", subject: "" },
+  { name: "", professor: "", level: "", subject: "" },
+  { name: "", professor: "", level: "", subject: "" },
+];
