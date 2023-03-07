@@ -63,29 +63,6 @@ window.users = [
 
 window.courses = [
   {
-    name: "Human Anatomy",
-    professor: "Ahmed Trifi",
-    level: "secondary",
-    subject: "biology",
-    isOnline: true,
-    
-  },
-  {
-    name: "Human Digestive System",
-    professor: "Ahmed Trifi",
-    level: "secondary",
-    subject: "biology",
-    isOnline: false,
-    
-  },
-  {
-    name: "Introduction to Pascal",
-    professor: "Mehdi Dissem",
-    level: "secondary",
-    subject: "programming",
-    isOnline: true,
-  },
-  {
     name: "Games Using Pascal",
     professor: "Mehdi Dissem",
     level: "secondary",
@@ -107,31 +84,11 @@ window.courses = [
     isOnline: true,
   },
   {
-    name: "Primitives and Integrals",
-    professor: "Wiem Mimouni",
-    level: "secondary",
-    subject: "mathematics",
-    isOnline: true,
-  },
-  {
     name: "Sine and Cosine",
     professor: "Wiem Mimouni",
     level: "preparatory",
     subject: "mathematics",
     isOnline: true,
   },
-  {
-    name: "Complete and Incomplete Combustion",
-    professor: "Keanu Reeves",
-    level: "primary",
-    subject: "physics",
-    isOnline: false,
-  },
-  {
-    name: "Acids and Bases",
-    professor: "Keanu Reeves",
-    level: "secondary",
-    subject: "physics",
-    isOnline: false,
-  },
+  
 ];
