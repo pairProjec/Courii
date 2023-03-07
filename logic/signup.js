@@ -1,9 +1,16 @@
 $("form").submit(function (event) {
+  //By default, submitting a form refreshes the page
   event.preventDefault();
+
+  //Is the new user a student or a professor?
   var isProf = $('input[name="role"]:checked').val();
+
+  //Checking if the username is taken
   var usernameTaken = window.users.find(function (user) {
     return $("#username").val() == user.username;
   });
+
+  //Sign up check
   if (usernameTaken) {
     alert("Please enter a different username");
   } else {
@@ -28,6 +35,7 @@ $("form").submit(function (event) {
   }
 });
 
+//Redirect to login page
 $("#signin").click(function (event) {
   event.preventDefault();
   window.location.assign("../pages/home.html");
