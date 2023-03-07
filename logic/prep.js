@@ -14,7 +14,7 @@ function prep_levels(){
 }
 }
 document.getElementById("btn").addEventListener("click", prep_levels)
-$(".profet").click(function pp(){
+$(".bt").click(function pp(){
     window.localStorage.setItem("professor",$(this).text())
     window.location.assign("../pages/professor.html")
 })

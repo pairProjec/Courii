@@ -16,7 +16,7 @@ function sec_levels(){
 }
 document.getElementById("btn").addEventListener("click", sec_levels)
 
-$(".profet").click(function pp(){
+$(".bt").click(function (){
     window.localStorage.setItem("professor",$(this).text())
     window.location.assign("../pages/professor.html")
 })

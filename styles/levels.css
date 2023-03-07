@@ -5,7 +5,7 @@ h1{
   text-decoration: underline;
 }
 header {
-    background-color:#fad643
+    background-color:#e3bd27
     ;
     text-align: center;
     padding: 20px;
@@ -79,37 +79,16 @@ h3{
 }
 
 
-#awlwahda{
-  justify-items:left;
+.courses {
   border: none;
   padding: 11px;
-  width: 40%;
-  border-radius: 50%;
+  width: 170px;
   font-size: large;
-  background: linear-gradient(#e4eb59, #6560e9);
+  background: linear-gradient(#4e421b, #ba4c3c);
 }
-#theniwahda{
-  position: absolute;
-  right:620px ;
-  bottom: 150px ;
-  text-align: center;
-  justify-items:center;
-  border: none;
-  padding: 15px;
-  width: 10%;
-  border-radius: 50%;
-  font-size: large;
-  background: linear-gradient(#e4eb59, #6560e9);
-}
-#thelthwahda{
-  justify-items:right;
-  border: none;
-  padding: 11px;
-  width: 40%;
-  border-radius: 50%;
-  font-size: large;
-  background: linear-gradient(#e4eb59, #6560e9);
 
+.courses:hover {
+  background: linear-gradient(90deg, #ba4c3c, #4e421b);
 }
 footer {
   height: 70vh;
