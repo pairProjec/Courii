@@ -1,51 +1,38 @@
-body {
+body{
+    background-image: url("../assets/login-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #dfb511;
+    padding: 0;
     margin: 0;
-    background-color: #fad643;
-}
+  }
 
 h2{
     text-align: center;
-    text-decoration: underline;
+   
 }
 header {
-    background-color: #fad643;
-    ;
+    
     text-align: center;
     padding: 20px;
   }
-
-  button{
-    position: absolute;
-  right:700px ;
-  bottom: 100px ;
-  text-align: center;
-  justify-items:center;
-  border: none;
-  padding: 15px;
-  width: 10%;
-  border-radius: 30%;
-  font-size: large;
-  background: linear-gradient(#e4eb59, #6560e9);
-  }
-  .bt{
-    position: absolute;
-    right:700px ;
-    bottom: 0px ;
-    text-align: center;
-    justify-items:left;
+  #btn {
     border: none;
-    padding: 15px;
-    width: 10%;
-    border-radius: 30%;
+    padding: 11px;
+    width: 40%;
     font-size: large;
-    background: linear-gradient(#e4eb59, #6560e9);
-
+    background: linear-gradient(#4e421b, #ba4c3c);
   }
+  
+  #btn:hover {
+    background: linear-gradient(90deg, #ba4c3c, #4e421b);
+  }
+
+
 .container{
     overflow: hidden;
-    background-image:url(https://i.makeagif.com/media/10-22-2020/Pms24f.gif);
     padding: 400px 100px;
-    background-repeat: repeat-x;
+    
 }
 .akra{
     display: block;
@@ -56,7 +43,7 @@ header {
     text-align: right;
 }
 .lili{
-    display: inline-flex;
+    /* display: inline-flex; */
     text-align: center;
     list-style: none;
 }
@@ -66,3 +53,43 @@ header {
 .profi{
     text-decoration-line: underline;
 }
+footer {
+    height: 43vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #a5751bd3;
+  }
+  
+  .col {
+    width: 33.33333%;
+    flex: 1 1;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .col h2 {
+    font-size: 140%;
+    background: linear-gradient(#2a2de0, #7900c9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    float: left;
+  }
+  
+  li {
+    font-size: x-large;
+  }
+  
+  #tech {
+    list-style: none;
+  }
+  
+  .techs {
+    display: inline;
+    margin: 12px;
+  }
+  
