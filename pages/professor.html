@@ -15,6 +15,20 @@
     <!-- This page isn't static. It depends on the professor you want to see -->
     <div id="container"></div>
 
+    <form>
+      <label> Course Name <input id="name" type="text" /> </label><br />
+      <label> Course Level <input id="level" type="text" /> </label><br />
+      <label> Subject <input id="subject" type="text" /> </label><br />
+      <label>
+        Course Description
+        <textarea id="desc" rows="5" cols="26"></textarea></label
+      ><br />
+      <label>
+        <input type="radio" name="online" value="present" /> Present
+        <input type="radio" name="online" value="online" /> Online </label
+      ><br />
+      <button id="add">Add Course</button>
+    </form>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="../logic/professor.js"></script>
     <script src="../logic/data.js"></script>
