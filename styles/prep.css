@@ -14,16 +14,6 @@ header {
     padding: 20px;
   }
 
-  footer {
-    text-align: center;
-    padding: 3px;
-    background-color: #fad643;
-    
-  }
-  h2{
-    text-align: center;
-    text-decoration: underline;
-  }
   button{
     position: absolute;
   right:700px ;
