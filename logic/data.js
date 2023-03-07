@@ -51,7 +51,15 @@ window.users = [
     username: "Ahmed Trifi",
     password: "123456",
     isProfessor: true,
-    courses: [],
+    courses: [
+      {
+        name: "Vegetables and Animals",
+        professor: "Ahmed Trifi",
+        level: "primary",
+        subject: "biology",
+        isOnline: true,
+      },
+    ],
   },
   {
     username: "Keanu Reaves",
@@ -90,5 +98,4 @@ window.courses = [
     subject: "mathematics",
     isOnline: true,
   },
-  
 ];
