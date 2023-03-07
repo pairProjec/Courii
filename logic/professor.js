@@ -1,17 +1,8 @@
-//  var professor = window.users.find(function (user) {
-//     return user.username === window.localStorage.getItem("professor");
-//   });
+var professor = window.users.find(function (user) {
+  return user.username === window.localStorage.getItem("professor");
+});
 
 $(document).ready(function () {
-  var professor = {
-    username: "admin",
-    courses: [
-      { name: "Course 1", description: "Description", subject: "subject" },
-      { name: "Course 2", description: "Description", subject: "subject" },
-      { name: "Course 3", description: "Description", subject: "subject" },
-    ],
-  };
-
   //Create H1 title
   var $title = $(`<h1>Welcome to ${professor.username}'s profile </h1>`);
 
@@ -51,14 +42,6 @@ $(document).ready(function () {
 $("#add").click(function (e) {
   e.preventDefault();
   var isOnline = $('input[name="online"]:checked').val();
-  var professor = {
-    username: "admin",
-    courses: [
-      { name: "HAHA 1", description: "Course", subject: "math" },
-      { name: "HAHA 2", description: "Course", subject: "math" },
-      { name: "HAHA 3", description: "Course", subject: "math" },
-    ],
-  };
 
   var newCourse = {
     name: $("#name").val(),
