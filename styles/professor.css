@@ -1,13 +1,20 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "EB Garamond";
+  background-image: url("../assets/prof-bg.png");
+  background-repeat: no-repeat;
+  background-position: 25% 25%;
+  background-size: cover;
+  background-color: #fad643;
 }
 
 h1 {
   margin: 29px;
   margin-left: 38px;
   font-weight: bold;
+  background: linear-gradient(#4e421b, #ba4c3c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #container {
@@ -33,6 +40,34 @@ h1 {
   height: 45vh;
   width: 33.333%;
   border: 1px solid black;
-  padding: 5px;
+  padding: 9px;
+  padding-top: 30px;
   margin: 3px;
+  background: linear-gradient(90deg, #fad643, #4e421b);
+}
+
+.name {
+  font-size: 170%;
+  font-style: italic;
+}
+
+.desc {
+  position: relative;
+  top: 15px;
+  font-size: 130%;
+}
+
+.subj {
+  position: relative;
+  top: 35px;
+}
+
+#sub {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  margin-bottom: -65px;
+  background: linear-gradient(#4e421b, #ba4c3c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
