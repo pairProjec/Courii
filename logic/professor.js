@@ -1,4 +1,7 @@
 var professor = window.users.find(function (user) {
+  console.log(
+    "The function won't work without this console.log() please don't judge"
+  );
   return user.username === window.localStorage.getItem("professor");
 });
 
