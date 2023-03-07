@@ -41,7 +41,8 @@ body {
   margin-left: 15px;
   height: 18px;
   font-size: large;
-  background: linear-gradient(#2a2de0, #7900c9);
+  font-weight: bold;
+  background: linear-gradient(#4e421b, #ba4c3c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -67,7 +68,7 @@ body {
 
 h1 {
   margin-top: -20px;
-  background: linear-gradient(#2a2de0, #7900c9);
+  background: linear-gradient(#4e421b, #ba4c3c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -91,11 +92,11 @@ form {
   padding: 11px;
   width: 40%;
   font-size: large;
-  background: linear-gradient(#2a2de0, #7900c9);
+  background: linear-gradient(#4e421b, #ba4c3c);
 }
 
 #submit:hover {
-  background: linear-gradient(#7900c9, #2a2de0);
+  background: linear-gradient(90deg, #ba4c3c, #4e421b);
 }
 
 footer {
@@ -131,4 +132,9 @@ li {
 
 #tech {
   list-style: none;
+}
+
+.techs {
+  display: inline;
+  margin: 12px;
 }
