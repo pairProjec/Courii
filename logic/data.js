@@ -27,7 +27,13 @@ window.users = [
     username: "Fawez Ferjaoui",
     password: "123456",
     isProfessor: true,
-    courses: [],
+    courses: [  {
+      name: "How to Python",
+      professor: "Fawez Ferjaoui",
+      level: "secondary",
+      subject: "programming",
+      isOnline: false,
+    },],
   },
   {
     username: "Taher Bahri",
@@ -45,7 +51,12 @@ window.users = [
     username: "Wiem Mimouni",
     password: "123456",
     isProfessor: true,
-    courses: [],
+    courses: [{    name: "Sine and Cosine",
+    professor: "Wiem Mimouni",
+    level: "preparatory",
+    subject: "mathematics",
+    isOnline: true,
+  }],
   },
   {
     username: "Ahmed Trifi",
@@ -61,12 +72,7 @@ window.users = [
       },
     ],
   },
-  {
-    username: "Keanu Reaves",
-    password: "123456",
-    isProfessor: true,
-    courses: [],
-  },
+ 
 ];
 
 window.courses = [

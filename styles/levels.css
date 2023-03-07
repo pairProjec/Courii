@@ -18,19 +18,19 @@ header {
 }
 #one{
   float: left;
-  position: fixed;
+  position: absolute;
   bottom: 450px ;
   right:1200px;
   
 }
 #two{
-  position: fixed;
+  position: absolute;
   bottom: 450px ;
   right:620px;
 
 }
 #three{
-  position: fixed;
+  position: absolute;
   bottom: 450px ;
   right:70px;
 
