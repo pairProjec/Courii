@@ -68,8 +68,7 @@ window.courses = [
     level: "secondary",
     subject: "biology",
     isOnline: true,
-    description:
-      "An understanding of anatomy is key to the practice of medicine and other areas of health.",
+    
   },
   {
     name: "Human Digestive System",
@@ -77,6 +76,7 @@ window.courses = [
     level: "secondary",
     subject: "biology",
     isOnline: false,
+    
   },
   {
     name: "Introduction to Pascal",

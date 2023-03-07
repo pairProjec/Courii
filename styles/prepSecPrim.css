@@ -17,7 +17,7 @@ header {
   button{
     position: absolute;
   right:700px ;
-  bottom: 50px ;
+  bottom: 100px ;
   text-align: center;
   justify-items:center;
   border: none;
@@ -27,7 +27,21 @@ header {
   font-size: large;
   background: linear-gradient(#e4eb59, #6560e9);
   }
-div{
+  .bt{
+    position: absolute;
+    right:700px ;
+    bottom: 0px ;
+    text-align: center;
+    justify-items:left;
+    border: none;
+    padding: 15px;
+    width: 10%;
+    border-radius: 30%;
+    font-size: large;
+    background: linear-gradient(#e4eb59, #6560e9);
+
+  }
+.container{
     overflow: hidden;
     background-image:url(https://i.makeagif.com/media/10-22-2020/Pms24f.gif);
     padding: 400px 100px;
@@ -40,4 +54,15 @@ div{
     width: 15%;
     height: 200px;
     text-align: right;
+}
+.lili{
+    display: inline-flex;
+    text-align: center;
+    list-style: none;
+}
+.mini_container{
+    text-align: center;
+}
+.profi{
+    text-decoration-line: underline;
 }

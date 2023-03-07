@@ -12,7 +12,8 @@ header {
   }
   .container{
     width: available;
-    height: available;
+    height: 30vh;
+    
 }
 
 .leftpane{
@@ -111,7 +112,7 @@ h3{
 
 }
 footer {
-  height: 43vh;
+  height: 70vh;
   border: 1px solid black;
   display: flex;
   flex-direction: row;
