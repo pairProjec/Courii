@@ -27,9 +27,6 @@ $(document).ready(function () {
       `<div class='course'><li><span class="name">${professor.courses[i].name} </span></li></div>`
     );
 
-    $($content).append(
-      $(`<span class="desc">${professor.courses[i].description}</span><br />`)
-    );
 
     $($content).append(
       $(`<span class="subj">${professor.courses[i].subject}</span>`)
